@@ -1,0 +1,555 @@
+
+html {
+  font-size: 16px;
+  font-family: helvetica, sans-serif;
+  color: #3e3e3e;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: 'Gravitas One';
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Gravitas One';
+}
+
+a {
+  display: block;
+  padding-top: 1rem;
+}
+
+/* Navigation Bar */
+
+header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  height: 4rem;
+  z-index: 3;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0px 0px 20px 0px;
+}
+
+nav {
+  padding-right: 1.5rem;
+  transition: all 0.25s ease-out;
+}
+nav span:hover{
+
+}
+
+nav span {
+  padding-left: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  font-weight: bold;
+  text-align: right;
+  padding: 1rem;
+}
+
+div {
+  display: block;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px 10px;
+}
+
+.logo {
+  padding-left: 24px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logotext {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.logotext span:last-child {
+  font-weight: normal;
+  color: lightgray;
+}
+
+.desktop {
+  justify-content: flex-end;
+  text-align: right;
+  padding-right: 24px;
+}
+
+
+.phone {
+  display: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* Banner */
+
+.banner {
+  background-color: gainsboro;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 4.2rem;
+
+}
+
+.image-container {
+  padding: 32px 24px;
+  width: 60%;
+
+
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 10px 10px;
+}
+
+.container .learn {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+
+}
+
+.learn {
+  margin: auto;
+}
+
+.start-here {
+  display: block;
+  background-color: dimgray;
+  padding: 2rem 4rem;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  border-radius: 10px 10px;
+  margin: auto;
+  margin-top: 4rem;
+
+
+}
+
+.start-here:hover {
+  background-color: #ffeb3b7d;
+}
+
+#button:hover {
+  transition-duration: 1s;
+  background-color: #ffeb3b7d;
+  box-shadow: 0px 0px 20px 0px;
+  border-radius: 10px 10px;
+
+}
+
+img{
+  filter: grayscale(1);
+}
+
+img:hover{
+  filter: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.phone-banner {
+  display: none;
+}
+
+/* Main Content */
+
+.main {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  max-width: 100%;
+}
+
+.practice {
+  max-width: 60%;
+  padding: 32px 24px;
+}
+
+.program {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 32px;
+}
+
+.practice span {
+  padding-bottom: 32px;
+}
+
+.practice p {
+  padding: 24px 0px;
+}
+
+.practice {
+  max-width: 60%;
+}
+
+.practice img {
+  width: 100%;
+  border-radius: 10px 10px;
+}
+
+.event {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.event img {
+  height: auto;
+  max-width: 35%;
+  margin: 16px 16px;
+  border-radius: 10px 10px;
+
+}
+
+.event .container {
+  width: 65%;
+
+}
+
+.event p {
+  padding: 8px 0px;
+  display: inline;
+}
+
+.event a {
+  text-decoration: none;
+}
+
+.event:last-child {
+  background-color: gainsboro;
+  border-radius: 10px 10px;
+}
+
+/* Courses */
+
+.start-learning {
+  background-color: gainsboro;
+  margin: 0;
+  display: flex;
+  padding: 0px 72px;
+  flex-flow: column;
+
+}
+
+.course-container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+
+
+}
+
+.start-learning h1 {
+  padding: 32px 0px;
+  text-align: center;
+
+}
+
+.course {
+  background-color: white;
+  display: block;
+  margin: 32px 32px;
+  max-width: 30%;
+  border-radius: 10px 10px;
+}
+
+.course img {
+  height: auto;
+  width: 100%;
+  border-radius: 10px 10px;
+}
+
+.course h2 {
+  padding-top: 16px;
+}
+
+.course span {
+  padding: 8px 0px;
+}
+
+.course p {
+  padding-bottom: 24px;
+}
+
+.course-info {
+  align-content: center;
+  padding: 24px 16px;
+}
+
+.course-info span {
+  padding: 8px 0px;
+}
+
+
+/* thesis */
+
+.thesis-container {
+  width: 100%;
+  display: flex;
+}
+
+
+
+.thesis-info {
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.thesis-info .flexbox:first-child {
+    background-color: gainsboro;
+}
+
+.thesis-info img {
+  width: 35%;
+  height: auto;
+  margin: 16px 16px;
+  border-radius: 10px 10px;
+}
+
+.thesis h1 {
+  text-align: center;
+}
+
+.video-flexbox {
+  width: 60%;
+  flex-flow: column;
+  padding: 0px 24px;
+
+}
+
+.video-flexbox video {
+  width: 100%;
+  border-radius: 10px 10px;
+}
+
+.video-flexbox:hover {
+  border-color: yellow;
+}
+
+.thesis-info .flexbox {
+  align-items: center;
+
+}
+
+
+/* footer */
+
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+}
+
+/* display */
+
+@media only screen and (max-width: 1024px){
+
+
+  p {
+    text-align: center;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .banner {
+    flex-direction: column;
+  }
+
+  .image-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .container .learn {
+    align-items: center;
+  }
+
+  h1 {
+    padding-bottom: 1rem;
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    text-align: center;
+
+  }
+
+  .start-here {
+    width: 100%;
+    padding: 1.5rem 2rem;
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+
+  }
+
+  .practice {
+    display: none;
+  }
+
+  .program {
+    display: none;
+  }
+
+  .phone-banner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .phone-banner .event{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 1rem;
+  }
+
+  .phone-banner .event img {
+    align-items: center;
+    width: 100%;
+  }
+
+  /* Courses */
+
+.start-learning {
+  background-color: white;
+  width: 100%;
+}
+
+.course-container {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+
+}
+
+.course-container img {
+  display: none;
+}
+
+.course {
+  background-color: gainsboro;
+  margin: 16px 0 8px 0;
+  width: 100%;
+}
+
+.course span {
+  display: none;
+}
+
+.course p {
+  display: none;
+}
+
+  /* thesis */
+
+  .container .thesis {
+    padding-bottom: 24px;
+
+  }
+
+  .thesis-info {
+    display: none;
+  }
+
+  .thesis-container h1 {
+    padding: 32px 24px 16px 24px;
+  }
+
+  .video-flexbox p {
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  .video-flexbox {
+    width: 100%;
+  }
+
+  footer{
+    padding: 16px 24px;
+  }
+}
+
+@media only screen and (max-width: 700px){
+
+  /* header */
+
+  header {
+    justify-content: center;
+
+  }
+
+  nav {
+      padding: 0;
+  }
+
+  .logo {
+    display: none;
+    flex-grow: 0;
+  }
+
+  .phone {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+
+    }
+
+    .desktop {
+      display: none;
+    }
+
+    /* thesis */
+
+
+
+
+
+    /* footer */
+
+    footer{
+      padding: 16px 24px;
+    }
+}
